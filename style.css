@@ -20,7 +20,7 @@ body { font-family: var(--font); color: var(--text-color); background: var(--bg-
 .logo { color: #fff; font-size: 1.3rem; font-weight: 700; text-decoration: none; }
 .nav-links { display: flex; gap: 24px; list-style: none; align-items: center; }
 .nav-links a { color: #fff; text-decoration: none; font-size: .95rem; }
-.btn-nav { background: var(--accent-color); padding: 8px 18px; border-radius: 6px; color: #fff !important; font-weight: 600; }
+.btn-nav { background: var(--accent-color); padding: 8px 18px; border-radius: 6px; color: var(--brand-dark) !important; font-weight: 600; }
 .nav-toggle { display: none; background: none; border: none; color: #fff; font-size: 1.5rem; }
 
 /* Hero */
@@ -30,7 +30,7 @@ body { font-family: var(--font); color: var(--text-color); background: var(--bg-
 .hero-sub { font-size: 1.2rem; opacity: .92; margin-bottom: 30px; }
 .hero-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
 .btn { padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1rem; }
-.btn-primary { background: var(--accent-color); color: #00e5ff; }
+.btn-primary { background: var(--accent-color); color: var(--brand-dark); }
 .btn-outline { border: 2px solid #fff; color: #fff; }
 
 /* Trust bar */
@@ -38,7 +38,7 @@ body { font-family: var(--font); color: var(--text-color); background: var(--bg-
 
 /* Sections */
 .section { max-width: 1100px; margin: 0 auto; padding: 70px 20px; text-align: center; }
-.section h2 { font-size: 2rem; color: #00e5ff; margin-bottom: 36px; }
+.section h2 { font-size: 2rem; color: var(--brand-dark); margin-bottom: 36px; }
 .section-alt { background: var(--bg-alt); max-width: none; }
 .section-alt h2, .section-alt p { max-width: 800px; margin-left: auto; margin-right: auto; }
 .about-text { font-size: 1.1rem; }
@@ -70,10 +70,17 @@ body { font-family: var(--font); color: var(--text-color); background: var(--bg-
 body { background: #0d0d14; color: #e8e8f0; }
 .card { background: #171722; box-shadow: 0 3px 20px rgba(108,43,217,.25); }
 .card h3 { color: #00e5ff; }
-.section-alt { background: #12121c; }
+.section-alt { background: #12121c; max-width: none; }
+.section-alt h2, .section-alt p { max-width: 800px; margin-left: auto; margin-right: auto; }
 .logo span { color: #00e5ff; }
 .neon { color: #00e5ff; text-shadow: 0 0 18px rgba(0,229,255,.7); }
 .price { font-size: 2rem; font-weight: 700; color: #00e5ff !important; margin-bottom: 8px; }
 .price span { font-size: 1rem; opacity: .7; }
 .note { margin-top: 28px; opacity: .85; }
-.reviewer { color: #00e5ff; }
+.note a { color: #00e5ff; }
+.trust-bar { background: #171722; color: #e8e8f0; }
+.btn-primary { color: #0d0d14 !important; }
+.btn-nav { color: #fff !important; }
+.section-cta p a { color: #fff; }
+.section-cta .email-line { margin-top: 20px; }
+.section-cta .email-line a { color: #00e5ff; }
